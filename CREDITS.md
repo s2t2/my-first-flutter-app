@@ -2,6 +2,7 @@
 
 ## Flutter Installation on Mac
 
+  + https://appdividend.com/2018/12/10/how-to-install-flutter-on-mac/
   + https://flutter.dev/
   + https://flutter.dev/docs/get-started/install/macos
   + https://flutter.dev/docs/get-started/install/macos#update-your-path
@@ -23,13 +24,27 @@
   + https://developer.android.com/studio/run/emulator-commandline#starting
   + `emulator -list-avds`
 
-### Virtual Device
+### Emulator / Virtual Device
 
   + "need an Android device running Android 4.1 (API level 16) or higher."
   + https://flutter.dev/docs/get-started/install/macos#set-up-the-android-emulator
+  + create a new device
 
 ### New App
 
   + vs code command pallette: "Flutter: New Project". this invokes `flutter create --ios-language objc --android-language java .`
   + "In order to run your application, type: `flutter run`"
   + "Your application code is in ./lib/main.dart."
+
+### Running the App
+
+  + from Android Studio > AVD Manager, run the emulator
+  + https://flutter.dev/docs/get-started/test-drive?tab=vscode
+  + https://dartcode.org/docs/quickly-switching-between-flutter-devices/
+  + vs code command pallette: "Flutter: Select Device" to verify the device is running
+  + press F5 to run the app on the emulator (might need to hold "fn" key to do it)
+  + ... "Launching lib/main.dart on Android SDK built for x86 in debug mode..."
+
+### Editing the App
+
+  + edit components in the lib/main.dart file and watch hot reload update the app in the emulator. pretty cool.

@@ -48,3 +48,28 @@
 ### Editing the App
 
   + edit components in the lib/main.dart file and watch hot reload update the app in the emulator. pretty cool.
+
+## Flutter Framework
+
+  + `Widget`, `StatelessWidget`, `StatefulWidget` `State` come from `package:flutter/src/widgets/framework.dart`
+  + `MaterialApp` and `ThemeData` comes from `package:flutter/material.dart`
+  + https://youtu.be/5VbAwhBBHsg
+
+### Material Design Components
+
+  + https://github.com/flutter/flutter/blob/master/packages/flutter/lib/material.dart
+  + https://flutter.dev/docs/development/ui/widgets/material
+  + https://api.flutter.dev/flutter/material/material-library.html
+  + https://api.flutter.dev/flutter/material/MaterialApp-class.html
+  + https://www.youtube.com/watch?v=DL0Ix1lnC4w
+
+### Testing
+
+  + https://flutter.dev/docs/testing
+
+## Dart Language
+
+  + https://dart.dev/guides/language
+  + https://dart.dev/guides/language/language-tour
+  + https://dart.dev/guides/language/effective-dart
+  + [Loading code from other files](https://stackoverflow.com/a/48875430/670433)

@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 import "homepage.dart";
-
-void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'My Flutter Demo App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: MyHomePage(title: 'My Android App (Flutter)'),
+      home: HomePage(title: 'My Flutter Demo App'),
     );
   }
 }
+
+void main() => runApp(MyApp());

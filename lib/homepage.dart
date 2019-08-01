@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class HomePage extends StatefulWidget {
+  HomePage({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  HomePageState createState() => HomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+class HomePageState extends State<HomePage> {
+  int counter = 0;
 
-  void _incrementCounter() { setState(() { _counter++; }); }
+  void incrementCounter() { setState(() { counter++; }); }
 
   @override
   Widget build(BuildContext context) {
@@ -23,13 +23,13 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text('You have pressed the button ...'),
-            Text('$_counter', style: Theme.of(context).textTheme.display1),
+            Text('$counter', style: Theme.of(context).textTheme.display1),
             Text('...times.'),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
